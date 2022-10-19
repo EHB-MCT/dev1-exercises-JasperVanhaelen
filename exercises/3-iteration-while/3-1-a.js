@@ -14,8 +14,9 @@ function draw() {
 
 function drawLines() {
     let i = 0;
+    let margin = 87.5;
     while (i < 10) {
-        Utils.drawLine(75, 87.5 + (i * 25), 320, 87.5 + (i * 25));
+        Utils.drawLine(75, margin + (i * 25), 320, margin + (i * 25));
         i++;
     }
 }

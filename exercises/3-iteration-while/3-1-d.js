@@ -13,9 +13,10 @@ function draw() {
 }
 
 function drawDiagonalLines() {
-    let i = ;
-    while (i <= ) {
-        Utils.drawLine(, , , );
-        i = ;
+    let i = 0;
+    while (i <= 7) {
+        Utils.drawLine(75, 50 + (i * 25), 320, 50 + (i * 25));
+
+        i++;
     }
 }
